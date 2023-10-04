@@ -9,3 +9,11 @@
 @media screen and (min-width: 1025px) {
     /* Estilos para escritorio */
 }
+
+body {
+    background-image: url(../images/fondo1.jpg);
+}
+
+h1{
+    color: beige;
+}
