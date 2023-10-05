@@ -12,8 +12,13 @@
 
 body {
     background-image: url(../images/fondo1.jpg);
+    background-size: cover;
 }
 
 h1{
     color: beige;
+}
+header{
+    margin: 100px;
+    padding-left: 50px;
 }
