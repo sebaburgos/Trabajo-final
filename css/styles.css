@@ -13,18 +13,40 @@
 body {
     background-image: url(../images/fondo1.jpg);
     background-size: cover;
-    color: beige;
+    color: rgb(226, 221, 233);
 }
 a {
-    color: blanchedalmond;
+    color: rgb(203, 206, 212);
 }
 
 
 header{
-    margin: 100px;
-    padding-left: 50px;
+    text-align: center;
+    padding-left: 350px;
 }
 
 footer{
-    color: aqua;
+    color: rgb(100, 49, 196);
+}
+.anuncio {
+     margin: 10px;
+     align-items: center;
+}
+.flex-container {
+    display: flex;
+    background-color: blue;
+    align-self: center;
+}
+
+.flex-container>p{
+    padding-right: 500px;
+    text-align: center;
+}
+
+
+p{
+    text-align: center;
+}
+img{
+    padding-left: 100px;
 }
