@@ -25,6 +25,11 @@ header{
     padding-left: 350px;
 }
 
+.encabezado-derecho {
+    text-align: right;
+    padding: 10px;
+}
+
 footer{
     color: rgb(100, 49, 196);
 }
