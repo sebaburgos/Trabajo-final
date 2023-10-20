@@ -10,25 +10,46 @@
     /* Estilos para escritorio */
 }
 
+@font-face {
+    font-family:Simpsonfont ;
+    src: url(../css/Simpsonfont.ttf);
+}
+
+.titulo{
+ text-align: center;
+
+}
+
 body {
-    background-image: url(../images/fondo1.jpg);
+    background-image: url(../images/fondo-nubes-2.webp);
     background-size: cover;
-    color: rgb(226, 221, 233);
+    color: rgb(13, 14, 12);
+    font-family: Simpsonfont;
 }
 a {
-    color: rgb(203, 206, 212);
+    color: rgb(5, 5, 5);
+    padding-left: 50px;
 }
 
 
-header{
-    text-align: center;
-    padding-left: 350px;
-}
 
 .encabezado-derecho {
     text-align: right;
     padding: 10px;
 }
+
+.boton-consultas {
+    background-color: #f1f525;
+    border: none;
+    color: rgb(12, 10, 10);
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
 
 footer{
     color: rgb(100, 49, 196);
@@ -39,7 +60,7 @@ footer{
 }
 .flex-container {
     display: flex;
-    background-color: blue;
+    background-color: rgba(230, 230, 236, 0);
     align-self: center;
 }
 
