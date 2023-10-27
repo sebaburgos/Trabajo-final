@@ -15,10 +15,10 @@
     src: url(../css/Simpsonfont.ttf);
 }
 
-.titulo{
+.titulo-principal{
  text-align: center;
- color:#f1f525;
-
+ color : #f1f525;
+ 
 }
 
 body {
@@ -37,6 +37,11 @@ a {
 .encabezado-derecho {
     text-align: right;
     padding: 2px;
+   
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        margin: 20px 0;
 }
 
 .encabezado-derecho img {
@@ -72,6 +77,7 @@ div.anuncio {
 .flex-container {
     display: flex;
     background-color: rgba(230, 230, 236, 0);
+    justify-content: center; /* Centrar horizontalmente */
     
 }
 
@@ -196,3 +202,95 @@ h1, h2 {
         text-align: left; /* Alinear a la izquierda en pantallas más pequeñas */
     }
 } 
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.header {
+    padding: 20px 0;
+}
+.barra {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navegacion a {
+    color: #f1f525;
+    text-decoration: none;
+    margin-right: 20px;
+}
+h1 {
+    font-size: 3em;
+    margin: 20px 0;
+}
+h2{
+    font-size: 2.5em;
+    margin: 40px 0;
+    display: flex;
+    justify-content: center;
+}
+.imagen img {
+    max-width: 100%;
+    height: auto;
+}
+.texto-nosotros {
+    margin-top: 30px;
+}
+.iconos-nosotros {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.icono {
+    text-align: center;
+    margin: 0 20px;
+    padding: 50px;
+}
+.footer {
+    color:#f1f525;
+    text-align: center;
+    padding: 40px 0;
+}
+.fas, .fab {
+    font-size: 24px;
+}
+.fa-home {
+    color:#f1f525;
+}
+div.nosotros {
+    margin: 0 auto;
+    padding: 1px;
+}  
+img{
+    border: 2px solid black;
+    margin:  auto;
+}
+.titulo{
+    font-size: 25px;
+    text-align: left;
+    color:#f1f525;
+}
+.encabezado-derecho {
+    text-align: right;
+    padding: 2px;
+}
+.flex-container {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+}
+
+.nosotros {
+    text-align: center; /* Centrar el contenido dentro de cada bloque "nosotros" */
+    margin: 10px; /* Agregar espacio entre los bloques "nosotros" */
+    max-width: 200px; /* Limitar el ancho máximo de cada bloque "nosotros" */
+}
+
+.nosotros img {
+    max-width: 100%; /* Asegurar que las imágenes no sean más anchas que su contenedor */
+    height: auto; /* Permitir que la altura se ajuste automáticamente */
+}
+.volver-prop{
+    margin: 50px 300px ;
+}
