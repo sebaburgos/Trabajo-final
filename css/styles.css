@@ -102,3 +102,97 @@ img{
     cursor: pointer;
 
   }
+
+  .volver {
+    margin: auto;
+  }
+
+    /* Estilos generales */
+fieldset {
+    width: 80%;
+    margin: 0 auto; /* Centrar el fieldset */
+}
+
+label, input, textarea {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+    fieldset {
+        width: 100%; /* Otra configuración para pantallas más pequeñas */
+    }
+}
+.formulario {
+    max-width: 800px;
+    margin: 0 auto;
+}
+body {
+   /* font-family: 'Arial', sans-serif;*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contenedor {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.formulario {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+}
+
+label,
+input,
+textarea {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input,
+textarea {
+    padding: 10px;
+}
+
+input[type="submit"] {
+    background-color: #f1f525;
+    color: rgb(6, 6, 6);
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+    .formulario,
+    fieldset {
+        width: 100%;
+    }
+}
+h1, h2 {
+    text-align: center;
+}
+
+/* Media query para pantallas más pequeñas */
+@media screen and (max-width: 600px) {
+    h1, h2 {
+        text-align: left; /* Alinear a la izquierda en pantallas más pequeñas */
+    }
+} 
